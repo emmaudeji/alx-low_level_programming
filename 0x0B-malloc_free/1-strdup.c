@@ -20,8 +20,6 @@ if (str == NULL)
 
 for (; str[size] != '\0'; size++);
 
-/*+1 on the size puts the end of string character*/
-
 m = malloc(size * sizeof(*str) + 1);
 
 if (m == 0)
