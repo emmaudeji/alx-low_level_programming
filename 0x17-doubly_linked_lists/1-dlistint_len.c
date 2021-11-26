@@ -8,7 +8,7 @@
  * Return: the number of elements in the dlistint_t
  * Description: count the elements by counting the nodes
  */
-size_t dlistint_len(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h)
 {
 	
 	size_t count_nodes = 0;
